@@ -1,0 +1,8 @@
+# Versão da Receita que a imagem da Eficaz constrói (EFI-741).
+# Trocar de versão é um card: conferir o commit contra a Portaria/ato que a publicou,
+# criar a tag rtc-<versão> NESSE commit e só então editar estas linhas.
+# Ato: Portaria Cotec nº 342/2026 (DOU 13/11/2026), art. 2º, §1º.
+IMAGEM=ghcr.io/carlosallef/rtc-regular
+VERSAO=1.6.1
+TAG=rtc-1.6.1
+COMMIT=150cccbe414d4a5edea703e4f7a424af5aa222c7
