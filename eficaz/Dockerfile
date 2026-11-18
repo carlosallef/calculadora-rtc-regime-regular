@@ -22,7 +22,8 @@ LABEL org.opencontainers.image.title="rtc-regular" \
       org.opencontainers.image.source="https://github.com/carlosallef/calculadora-rtc-regime-regular" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.revision="${REVISION}" \
-      org.opencontainers.image.version="${VERSION}"
+      org.opencontainers.image.version="${VERSION}" \
+      br.com.eficaz.preservar="sim"
 RUN apt-get update \
  && apt-get install -y --no-install-recommends curl \
  && rm -rf /var/lib/apt/lists/* \
